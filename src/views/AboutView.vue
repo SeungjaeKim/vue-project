@@ -1,17 +1,6 @@
-<template></template>
-<script>
-  export default {
-    name: '',
-    components: {},
-    data() {
-      return {
-        sampleData: ''
-      };
-    },
-    setup(){},
-    created(){},
-    mounted(){},
-    unmounted(){},
-    methods: {}
-  }
-</script>
+<template>
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
+</template>
