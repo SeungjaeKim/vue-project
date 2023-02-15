@@ -1,7 +1,12 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Data Binding</router-link>
+    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/event">Event Click</router-link> |
+    <router-link to="/computed">Computed Click</router-link> |
+    <router-link to="/watch">watch Click</router-link> |
+    <router-link to="/api/list">Data Binding List Click</router-link> |
+    <router-link to="/nested">Nested</router-link> |
   </nav>
   <router-view/>
 </template>
