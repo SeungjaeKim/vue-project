@@ -7,6 +7,10 @@
     <router-link to="/watch">watch Click</router-link> |
     <router-link to="/api/list">Data Binding List Click</router-link> |
     <router-link to="/nested">Nested</router-link> |
+    <router-link to="/store">Store</router-link> |
+    <router-link to="/kakaologin">KakaoLogin</router-link> |
+    <router-link to="/naverlogin">NaverLogin</router-link> |
+    <router-link to="/googlelogin">GoogleLogin</router-link> |
   </nav>
   <router-view/>
 </template>

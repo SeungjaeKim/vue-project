@@ -6,6 +6,10 @@ import ComputedView from '../views/ComputedView.vue'
 import WatchView from '../views/WatchView.vue'
 import DataBindingListView from '../views/DataBindingListView.vue'
 import NestedView from '../views/NestedComponentView.vue'
+import StoreView from '../views/StoreAccess.vue'
+import KakaoLogin from '../views/KakaoLogin.vue'
+import NaverLogin from '../views/NaverLogin.vue'
+import GoogleLogin from '../views/GoogleLogin.vue'
 
 const routes = [
   {
@@ -65,6 +69,26 @@ const routes = [
     path: '/nested',
     name: 'Nested',
     component: NestedView
+  },
+  {
+    path: '/store',
+    name: 'Store',
+    component: StoreView
+  },
+  {
+    path: '/kakaologin',
+    name: 'KakaoLogin',
+    component: KakaoLogin
+  },
+  {
+    path: '/naverlogin',
+    name: 'NaverLogin',
+    component: NaverLogin
+  },
+  {
+    path: '/googlelogin',
+    name: 'GoogleLogin',
+    component: GoogleLogin
   },
 ]
 
